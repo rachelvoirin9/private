@@ -1,0 +1,15 @@
+body {
+  display: flex; /* Create two side-by-side sections */
+}
+
+.sidebar {
+  width: 200px; /* Adjust width as needed */
+  padding: 1rem; /* Add padding for content */
+  background-color: #f0f0f0; /* Optional background color */
+  border-right: 1px solid #ddd; /* Optional border */
+}
+
+.content {
+  flex: 1; /* Main content takes remaining space */
+  padding: 1rem; /* Add padding for content */
+}
